@@ -1,0 +1,17 @@
+{
+  "name": "@sup39/eslint-config-typescript",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "description": "eslint config for typescript by sup39",
+  "repository": "https://github.com/sup39/eslint-config-typescript",
+  "author": "sup39",
+  "dependencies": {
+    "@sup39/eslint-config-basic": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest"
+  }
+}
