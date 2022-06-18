@@ -36,8 +36,12 @@ module.exports = {
     // '@typescript-eslint/no-use-before-define': ['error'],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', {
-      'varsIgnorePattern': '^_',
-      'argsIgnorePattern': '^_'
+      args: 'after-used',
+      varsIgnorePattern: '^_',
+      argsIgnorePattern: '^_',
+      ignoreRestSiblings: true,
+      // allow _* and 1-letter var (e.g. `k`)
+      destructuredArrayIgnorePattern: "^_|^.$"
     }]
   },
 };
