@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2022 sup39[サポミク]
+// Copyright (c) 2022-2023 sup39
 
 module.exports = {
   extends: [
@@ -11,6 +11,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     'no-use-before-define': 'off',
+    'no-undef': 'off',
     // '@typescript-eslint/no-use-before-define': ['error'],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', {
