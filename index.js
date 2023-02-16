@@ -11,6 +11,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     'no-use-before-define': 'off',
+    'no-undef': 'off',
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': ['error'],
     'no-unused-vars': 'off',
